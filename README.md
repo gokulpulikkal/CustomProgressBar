@@ -39,6 +39,8 @@ Interfaces available for customization are
 <field id="scrubberColor" value="#FFFFFF" alias="scrubber.blendColor" />
 ```
 
+The rectangles in this progressBar can be replaced with posters. This will help us achieve rounded corners for the bars.- But, for simplicity I'm not doing that here.
+
 ## 🏦 Contributing
 
 If you find a bug or would like to contribute to this project, please submit an issue or a pull request. I would be more than happy to see if someone actually using my code.
