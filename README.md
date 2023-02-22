@@ -1,6 +1,9 @@
-# Custom Progress Bar for Roku
 
-This is a custom progress bar component for Roku that uses only Roku native components. It provides a simple and easy-to-use way to display progress information in your Roku channel.
+<h1 align="center">Custom Progress Bar for Roku</h1>
+
+<p align="center">
+  <i>This is a custom progress bar component for Roku that uses only Roku native components. It provides a simple and easy-to-use way to display progress information in your Roku channel.</i>
+</p>
 
 ## Getting Started
 
@@ -13,14 +16,7 @@ To use this progress bar component in your Roku channel, you'll need to follow t
 3. In your Roku SceneGraph XML file, add the following line to import the progress bar component:
 
 ```xml
-<?xml version="1.0" encoding="utf-8" ?>
-<component name="MainScene" extends="Scene"> 
-	<script type="text/brightscript" uri="MainScene.brs" />
-	<children>
-      <ProgressBar id="progressBar" width="1000" height="10" translation="[500, 500]" />
-  </children>
-</component>
-
+    <ProgressBar id="progressBar" width="1000" height="10" translation="[500, 500]" />
 ```
 4. In your Roku BrightScript code, get the instance of progressBar and give progress value
 
