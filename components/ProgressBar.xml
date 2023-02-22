@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="ProgressBar" extends="Group"> 
+
+  <script type="text/brightscript" uri="ProgressBar.brs"/>
+	<children>
+      <Label id="myLabel" 
+      	text="Hello World!"
+      	width="1920" 
+      	height="1080" 
+      	horizAlign="center"
+      	vertAlign="center"
+      	/>
+    </children>
+<!-- End of BrightScript Portion -->
+</component>

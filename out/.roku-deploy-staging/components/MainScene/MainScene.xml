@@ -2,6 +2,6 @@
 <component name="MainScene" extends="Scene"> 
 	<script type="text/brightscript" uri="MainScene.brs" />
 	<children>
-      <HelloWorld id="Hello" />
+      <ProgressBar id="progressBar"/>
   </children>
 </component>
