@@ -2,6 +2,7 @@
 components/AppConfigFiles/*
 out
 out/*
+out/roku-deploy.zip
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
