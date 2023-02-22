@@ -2,6 +2,10 @@
 <component name="MainScene" extends="Scene"> 
 	<script type="text/brightscript" uri="MainScene.brs" />
 	<children>
-      <ProgressBar id="progressBar"/>
+      <ProgressBar id="progressBar" width="1000" height="10" translation="[500, 500]" progress="0.5"/>
+      
+      <Animation id="testAnimation" duration="10" repeat="true" easeFunction="linear" >
+        <FloatFieldInterpolator id="testFloat" key="[0.0, 0.5, 1.0]" keyValue="[ 0.0, 1.0, 0.0 ]" fieldToInterp="progressBar.progress"   />
+      </Animation>
   </children>
 </component>

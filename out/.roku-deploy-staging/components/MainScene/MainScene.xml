@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<component name="MainScene" extends="Scene"> 
-	<script type="text/brightscript" uri="MainScene.brs" />
-	<children>
-      <ProgressBar id="progressBar"/>
-  </children>
-</component>
