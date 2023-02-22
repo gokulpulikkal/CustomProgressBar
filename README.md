@@ -5,7 +5,7 @@
   <i>This is a custom progress bar component for Roku that uses only Roku native components. It provides a simple and easy-to-use way to display progress information in your Roku channel.</i>
 </p>
 
-## Getting Started
+## 🏁 Getting Started
 
 To use this progress bar component in your Roku channel, you'll need to follow these steps:
 
@@ -25,7 +25,7 @@ progressBar = m.top.findNode("progressBar")
 progressBar.progress = 0.5
 ```
 
-## Customization
+## 🖌️ Customization
 
 You can customize the appearance and behavior of the progress bar with interfaces exposed for this purposes. Or, you can have additional modifications by directly accessing the progressBar.xml file. This file contains the scene graph definition for the progress bar component, which you can modify to change its appearance, behavior, and functionality. 
 
@@ -36,14 +36,14 @@ Interfaces available for customization are
 <field id="scrubberColor" value="#FFFFFF" alias="scrubber.blendColor" />
 ```
 
-## Contributing
+## 🏦 Contributing
 
 If you find a bug or would like to contribute to this project, please submit an issue or a pull request. I would be more than happy to see if someone actually using my code.
 
-## License
+## 👮🏽‍♀️ License
 
 Feel free to use it anywhere you want.
 
-## Contact
+## 📬 Contact
 
 If you have any questions or comments about this project, please contact me at gokulplkl@gmail.com
