@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="ProgressBar" extends="Group">
+
+  <interface>
+    <!-- progressBar width -->
+    <field id="width" type="float" alias="backgroundRect.width"/>
+    <!-- Height of the progressbar -->
+    <field id="height" type="float" value="10" alias="backgroundRect.height, progressRect.height"  onChange="reloadUI"/>
+    <field id="scrubberHeight" type="float" value="30" alias="scrubber.height" onChange="reloadUI"/>
+    <field id="scrubberWidth" type="float" value="30" alias="scrubber.width"/>
+    <!-- Progress value. Should be in between 0 and 1 -->
+    <field id="progress" type="float" value="0" onChange="onProgressChange"/>
+
+    <!-- Cosmetics -->
+    <field id="progressBarBackgroundColor" value="#FFFF00" alias="backgroundRect.color" />
+    <field id="progressBarColor" value="#FF0000" alias="progressRect.color" />
+    <field id="scrubberColor" value="#FFFFFF" alias="scrubber.blendColor" />
+
+  </interface>
+
+  <script type="text/brightscript" uri="ProgressBar.brs"/>
+	<children>
+      <Rectangle id="backgroundRect" width="1000" height="15"/>
+      <Rectangle id="progressRect" color="#0000" width="0" height="15"/>
+      <Poster id="scrubber" uri="pkg:/images/progress-bar-scrubber-fhd.png" width="30" height="30"/>
+    </children>
+</component>
