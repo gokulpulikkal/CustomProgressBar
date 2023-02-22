@@ -1,6 +1,5 @@
 # VS Code files for those working on multiple tools
 components/AppConfigFiles/*
-out
 out/*
 out/roku-deploy.zip
 .vscode/*
