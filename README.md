@@ -6,9 +6,7 @@
 </p>
 
 <p align="center">
-  
-![ezgif com-video-to-gif](https://user-images.githubusercontent.com/52960334/225397707-e91c9d61-721e-4eaa-9a57-4ab624dd3481.gif)
-
+  <img src="https://user-images.githubusercontent.com/52960334/225397707-e91c9d61-721e-4eaa-9a57-4ab624dd3481.gif" alt="animated" />
 </p>
 
 ## 🏁 Getting Started
