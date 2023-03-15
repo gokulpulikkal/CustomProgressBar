@@ -5,7 +5,8 @@
   <i>This is a custom progress bar component for Roku that uses only Roku native components. It provides a simple and easy-to-use way to display progress information in your Roku channel.</i>
 </p>
 
-![dev](https://user-images.githubusercontent.com/52960334/220727141-4ccf3dc8-a780-4623-a81c-5902113a0a75.jpg)
+
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/52960334/225397707-e91c9d61-721e-4eaa-9a57-4ab624dd3481.gif)
 
 
 ## 🏁 Getting Started
